@@ -1,0 +1,66 @@
+ul {
+    background-color: black;
+    list-style-type: none;
+    padding-right:30px;
+    margin:0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+li a:hover {
+    background-color:#0ff147 ;
+    color: black;
+}
+
+.sidebar {
+    background-color: aquamarine; 
+    padding: 10px;"
+    width: 50%;
+}
+
+.main {
+    display: flex;
+    justify-content: start;
+    height: 30%;
+}
+
+section {
+    padding: 10px;
+    width: 50%;
+    background-color: aqua;
+}
+
+section h2 {
+    
+}
+
+footer {
+ background-color: black;
+ 
+}
+
+footer div {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+footer p {
+    padding-bottom: 20px;
+}
